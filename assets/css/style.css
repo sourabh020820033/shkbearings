@@ -866,7 +866,7 @@ img-thumbnail {
   font-size: 16px !important;
 }
 .bannertitle{
-  margin-top: 100px;
+  margin-top: 50pxpx;
   text-align: center;
   position: absolute; 
   top: 390px;
@@ -879,7 +879,7 @@ img-thumbnail {
   left: 50%;
   transform: translate(-50%, -50%); /* Center the image */
   max-width: 100%; /* Ensure image fits within its container */
-  height: 650px;
+  height: 100%;
   z-index: 2; /* Ensure it is on top of the background image */
 }
 
@@ -23519,14 +23519,13 @@ blockquote .user-name:before {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 .aabout-us-section button:hover {
   background-color: white;
-  color: #B12A5B;
-  transform: scale(1.2);
-  
+  font-size: 18px;
+  transform: scale(1.1);
 }
 
 /* Responsive Design */
