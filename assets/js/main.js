@@ -329,7 +329,7 @@
     var mySwiper = new Swiper(".testimonial-slider", {
       preventInteractionOnTransition: true,
       slidesPerView: 3,
-      spaceBetween: 40,
+      spaceBetween: 0,
       loop: true,
       navigation: {
         nextEl: ".testimonial-button-next",

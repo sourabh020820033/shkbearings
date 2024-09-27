@@ -5,9 +5,9 @@ function footerDesign() {
   footerContainer.innerHTML = `
     <div class="footer-area">
         <div
-        style="background-image: url(assets/images/background-img/1-4-1920x419.png);"
+        style="background-color: rgb(5, 5, 31)"
           class="footer-top section-space-y-axis-100 text-lavender"
-          data-bg-image="assets/images/background-img/1-4-1920x419.png"
+          
         >
           <div class="container">
             <div class="row">
