@@ -202,24 +202,22 @@ body {
     height: 400px !important;
   }
   .background-img{
-    position: absolute !important; 
-    height: 100%;
-    width: 100%;
-    right: 0px;
-    object-fit: cover;
-    top: -7px;
+    display: none !important;
   }
   .bannerimgs{
-    width: 150px !important;
-    margin-left: 90px;
-    margin-top: -25px;
+    width: 300px !important;
+    margin-left: 22px;
+    margin-top: -70px;
   }
   .inner-img{
     position: unset;
     width: 100%
+  
   }
   .bannertitle{
-    top: 197px !important;
+    top: 210px !important;
+    left: -14px !important;
+
   }
   .call-us-text{
     top: 9% !important;
@@ -23529,18 +23527,49 @@ blockquote .user-name:before {
 }
 
 /* Responsive Design */
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .aabout-us-section h1 {
       font-size: 16px;
   }
+  #shkbearingpspan{
+    font-weight: 600; 
+    font-size: 31px;
+  }
+   .gradient-text1{
+    font-size: 31px;;
+  }
+  .gradient-text2{
+    font-size: 31px;;
+  }
+  .gradient-text3{
+    font-size: 31px;;
+  }
+  .gradient-text4{
+    font-size: 26px;;
+  }
+  .gradient-text5{
+    font-size: 31px;;
+  }
+
+  
+#shkbearingspan {
+  font-weight: 600;
+  color: white;
+  font-size: 31px;
+}
+.gradient-text{
+  font-size: 31px;
+}
 
   .aabout-us-section p {
+    width: 78%;
       font-size: 10px;
   }
 
   .aabout-us-section .aabout-button {
       font-size: 14px;
       padding: 8px 16px;
+      margin-bottom: 30px;
   }
 }
 
@@ -23550,12 +23579,30 @@ blockquote .user-name:before {
   }
 
   .aabout-us-section p {
-      font-size: 14px;
+    width: 78%;
+      font-size: 10px;
   }
+  .gradient-text1{
+    font-size: 31px;;
+  }
+  .gradient-text2{
+    font-size: 31px;;
+  }
+  .gradient-text3{
+    font-size: 31px;;
+  }
+  .gradient-text4{
+    font-size: 26px;;
+  }
+  .gradient-text5{
+    font-size: 31px;;
+  }
+  
 
   .aabout-us-section .aabout-button {
       font-size: 12px;
       padding: 6px 12px;
+      margin-bottom: 30px;
   }
 }
 /* aabout section ends here */
