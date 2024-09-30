@@ -89,7 +89,7 @@ function mapBlogItem(item) {
       </a>
     </div>
     <div class="blog-content blog-desc">
-      <h2 class="">
+      <h2 class="title6">
         <a style="font-size: 24px;line-height: 20px; color: black; font-weight: 600" href="${detailPagePath}"
           >${item?.title}</a
         >
@@ -98,7 +98,7 @@ function mapBlogItem(item) {
       ${item?.description?.slice(0, 80) + "..."}
       </p>
       <div class="button-wrap">
-        <a class="read-more-btn gradient-text"
+        <a class="read-more-btn gradient-text10"
           href="${detailPagePath}"
           >Read More</a
         >

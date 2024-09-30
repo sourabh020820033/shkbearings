@@ -820,7 +820,6 @@ img-thumbnail {
 .container-lg,
 .container-md,
 .container-sm {
-  --bs-gutter-x: 30px;
   --bs-gutter-y: 0;
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -892,7 +891,6 @@ img-thumbnail {
 }
 .row {
   background-size: cover;
-  --bs-gutter-x: 30px;
   --bs-gutter-y: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -17039,6 +17037,7 @@ img {
   .section-space-y-axis-100 {
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 10px;
   }
 }
 .section-space-bottom-115 {
@@ -23343,6 +23342,7 @@ blockquote .user-name:before {
   font-weight: 1;
   margin-top: 0px;
   color: #333;
+  line-height: 0.8;
 }
 .btn-spn{
   width: 95px;
@@ -23393,7 +23393,8 @@ blockquote .user-name:before {
   }
 
   .join-us-section p {
-      font-size: 10px;
+      font-size: 12px;
+      width: 80%;
   }
 
   .join-us-section .join-button {
@@ -23434,6 +23435,9 @@ blockquote .user-name:before {
   font-weight: 1;
   margin-top: 30px;
   color: #B12A5B;
+  margin-left: 7px;
+  margin-right:7px ;
+  line-height: 1;
 }
 
 #shkbearingspan {
@@ -23453,7 +23457,7 @@ blockquote .user-name:before {
   width: 60%;
   margin-top: 30px;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 24px;
 
 
 }
@@ -23530,13 +23534,37 @@ blockquote .user-name:before {
 @media (max-width: 768px) {
   .aabout-us-section h1 {
       font-size: 16px;
+      line-height: 0.7;
   }
+ .title1{
+  line-height: 0.7;
+ }
+ .title2{
+  line-height: 0.7;
+ }
+ .title3{
+  line-height: 0.7;
+ }
+ .title4{
+  line-height: 0.7;
+ }
+ .img-zoom-effect{
+  margin: 15px;
+  margin-top: 10px;
+ }
+.blog-desc{
+  margin: 15px;
+}
+.break{
+  display: none;
+}
+
   #shkbearingpspan{
     font-weight: 600; 
-    font-size: 31px;
+    font-size: 25px;
   }
    .gradient-text1{
-    font-size: 31px;;
+    font-size: 31px;
   }
   .gradient-text2{
     font-size: 31px;;
@@ -23545,7 +23573,7 @@ blockquote .user-name:before {
     font-size: 31px;;
   }
   .gradient-text4{
-    font-size: 26px;;
+    font-size: 26px;
   }
   .gradient-text5{
     font-size: 31px;;
@@ -23557,13 +23585,11 @@ blockquote .user-name:before {
   color: white;
   font-size: 31px;
 }
-.gradient-text{
-  font-size: 31px;
-}
 
   .aabout-us-section p {
     width: 78%;
-      font-size: 10px;
+      font-size: 11px;
+      margin-bottom: 38px;
   }
 
   .aabout-us-section .aabout-button {
@@ -23580,7 +23606,7 @@ blockquote .user-name:before {
 
   .aabout-us-section p {
     width: 78%;
-      font-size: 10px;
+      font-size: 12px;
   }
   .gradient-text1{
     font-size: 31px;;
@@ -23592,18 +23618,43 @@ blockquote .user-name:before {
     font-size: 31px;;
   }
   .gradient-text4{
-    font-size: 26px;;
+    font-size: 23px;;
   }
   .gradient-text5{
-    font-size: 31px;;
+    font-size: 31px;
+  }
+  .gradient-text{
+    font-size: 25px;
   }
   
+  #shkbearingspan {
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+  }
+  .arrow1{
+    font-size: 25px;
+  }
 
   .aabout-us-section .aabout-button {
       font-size: 12px;
       padding: 6px 12px;
       margin-bottom: 30px;
   }
+  .gradient-text10 {
+            font-size: 18px;
+    background: linear-gradient(
+        to right,       /* Direction of the gradient */
+        #CF556C 0%,     /* Color 1 at 0% */
+        #CF556C 25%,    /* Color 2 at 33% */
+        #FF8C7F 63%,    /* Color 3 at 66% */
+        #FF8177 100%    /* Color 4 at 100% */
+    );
+    -webkit-background-clip: text; /* For Chrome and Safari */
+    -moz-background-clip: text;    /* For Firefox (older versions) */
+     
+    color: transparent;            /* Hide the default text color */
+}
 }
 /* aabout section ends here */
 
@@ -23618,7 +23669,6 @@ blockquote .user-name:before {
   margin: 0;
   padding: 0 20px; /* Adjust horizontal padding if needed */
   position: absolute; /* Allow positioning relative to its container */
-  right: 20px; /* Adjust horizontal position if needed */
   top: 30%; /* Align vertically to the middle */
   transform: rotate(180deg) translateY(-30%); /* Center vertically and rotate text */
   text-decoration: none;
@@ -23638,6 +23688,20 @@ blockquote .user-name:before {
              
             color: transparent;            /* Hide the default text color */
         }
+        .gradient-text8 {
+            
+          background: linear-gradient(
+              to right,       /* Direction of the gradient */
+              #CF556C 0%,     /* Color 1 at 0% */
+              #CF556C 25%,    /* Color 2 at 33% */
+              #FF8C7F 63%,    /* Color 3 at 66% */
+              #FF8177 100%    /* Color 4 at 100% */
+          );
+          -webkit-background-clip: text; /* For Chrome and Safari */
+          -moz-background-clip: text;    /* For Firefox (older versions) */
+           
+          color: transparent;            /* Hide the default text color */
+      }
 .interff{
   font-family: "Inter", sans-serif;
 }
