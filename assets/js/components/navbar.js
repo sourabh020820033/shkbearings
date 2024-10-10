@@ -114,7 +114,7 @@ function navbarDesign() {
                     href="#mobileMenu"
                     class="mobile-menu_btn toolbar-btn pl-0"
                   >
-                    <i class="pe-7s-menu"></i>
+                    <i class="pe-7s-menu" style="color: #ffffff;padding-right: 10px"></i>
                   </a>
                 </li>
               </ul>

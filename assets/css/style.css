@@ -17206,6 +17206,13 @@ img {
 @media (max-width: 479px) {
   .section-title.style-2 .title {
     font-size: 30px;
+    margin-left: 10px;
+  }
+  .mb-0{
+    margin-left: 10px;
+  }
+  .short-width{
+    margin-left: 10px;
   }
 }
 .section-title.style-2 .title:before {
@@ -22035,7 +22042,7 @@ blockquote .user-name:before {
 }
 @media (max-width: 767px) {
   .contact-form {
-    padding: 0;
+    padding: 10px;
   }
 }
 @media (max-width: 991.98px) {
@@ -23212,6 +23219,7 @@ blockquote .user-name:before {
   line-height: 25px;
 }
 .about-card {
+  margin: 5px;
   padding: 30px;
   border-radius: 5%;
   border: 1px solid var(--bs-gray-400);
@@ -23321,9 +23329,22 @@ blockquote .user-name:before {
   .category-detail-banner-image {
     width: 50%;
   }
+  .home-about-content-wrapper{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mb-7{
+    font-size: 16px;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .shipping-style-2 .shipping-item{
+    padding: 10px;
+  }
   .short-width {
     width: 100%;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 /* join us section start here */
@@ -23558,6 +23579,26 @@ blockquote .user-name:before {
 .break{
   display: none;
 }
+.blog-content{
+  width: 80%;
+  margin-left: 50px;
+}
+.blog-content .title{
+  font-size: 24px;
+}
+.button-class{
+  background: white !important;
+  padding: 0px !important;
+}
+.mytext1{
+          font-size: 18px;
+        background: linear-gradient(to right, /* Direction of the gradient */ #CF556C 0%, /* Color 1 at 0% */ #CF556C 25%, /* Color 2 at 33% */ #FF8C7F 63%, /* Color 3 at 66% */ #FF8177 100% /* Color 4 at 100% */);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        color: transparent;
+}
+
+
 
   #shkbearingpspan{
     font-weight: 600; 
@@ -23603,10 +23644,17 @@ blockquote .user-name:before {
     .aabout-us-section h1 {
       font-size: 14px;
   }
+  .about-card{
+    margin: 10px;
+  }
+  .button-card{
+     background: white !important;
+     padding:0px;
+  }
 
   .aabout-us-section p {
-    width: 78%;
-      font-size: 12px;
+    width: 84%;
+      font-size: 14px;
   }
   .gradient-text1{
     font-size: 31px;;

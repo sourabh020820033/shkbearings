@@ -94,7 +94,7 @@ async function handleFetchBlogDetails() {
           ${blogDetail?.title}
         </h2>
       </div>
-      <p class="short-desc mb-7">
+      <p class="short-desc mb-3 " style="font-size=14px,">
         ${blogDetail?.description}
       </p>
 
