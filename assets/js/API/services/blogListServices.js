@@ -64,10 +64,7 @@ async function handleFetchBlogs() {
                           <div class="button-wrap">
                           <button class="button-class" style="margin-top: 0px; padding: 5px 15px">
                             <a
-                              class="mytext1" style="color: linear-gradient(
-    to right,      /* Direction of the gradient */
-    #B12A5B 0%,    /* Start color and position */
-    #FF8177 100%   /* End color and position */
+                              class="mytext1" style="color: white"
   );"
                               href="${detailPagePath}"
                               >Read More</a
