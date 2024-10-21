@@ -16802,7 +16802,7 @@ body {
 }
 
 a {
-  color: #6c788c;
+  /* color: #6c788c; */
   text-decoration: none;
 }
 /* a:hover {
@@ -17038,6 +17038,7 @@ img {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .section-space-bottom-115 {
@@ -23323,6 +23324,15 @@ blockquote .user-name:before {
     height: 9cqb;
     background-size: cover;
   }
+  .join-us-section{
+    height: 280px;
+  }
+  .segments-section{
+    padding: 20px 20px;
+  }
+  .section-wrapper{
+    padding: 50px 0px 0px 0px;
+  }
   .category-page-content {
     width: 90%;
   }
@@ -23339,6 +23349,7 @@ blockquote .user-name:before {
   }
   .shipping-style-2 .shipping-item{
     padding: 10px;
+    margin: 0px 10px;
   }
   .short-width {
     width: 100%;
@@ -23401,7 +23412,7 @@ blockquote .user-name:before {
   transition: all 0.3s ease;
 }
 
-.join-us-section .button-class:hover {
+.join-us-section .button-class1:hover {
   background-color: white;
   color: #B12A5B;
   transform: scale(1.2);
@@ -23484,6 +23495,7 @@ blockquote .user-name:before {
 }
 .read-more-btn{
   font-weight: 600;
+
 }
 .read-more-btn:hover{
   font-size: 18px;
@@ -23524,6 +23536,21 @@ blockquote .user-name:before {
   font-size: 16px;
 }
 .button-class{
+  margin-top: 20px;
+  padding: 15px 25px;
+  border: 2px solid #fcfcfc;
+  background: linear-gradient(
+    to right,      /* Direction of the gradient */
+    #B12A5B 0%,    /* Start color and position */
+    #FF8177 100%   /* End color and position */
+  );
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+.button-class1{
   margin-top: 20px;
   padding: 15px 25px;
   border: 2px solid #fcfcfc;
@@ -23586,16 +23613,12 @@ blockquote .user-name:before {
 .blog-content .title{
   font-size: 24px;
 }
-.button-class{
-  background: white !important;
-  padding: 0px !important;
-}
 .mytext1{
           font-size: 18px;
         background: linear-gradient(to right, /* Direction of the gradient */ #CF556C 0%, /* Color 1 at 0% */ #CF556C 25%, /* Color 2 at 33% */ #FF8C7F 63%, /* Color 3 at 66% */ #FF8177 100% /* Color 4 at 100% */);
         -webkit-background-clip: text;
         -moz-background-clip: text;
-        color: transparent;
+        color: white;
 }
 
 
@@ -23701,7 +23724,7 @@ blockquote .user-name:before {
     -webkit-background-clip: text; /* For Chrome and Safari */
     -moz-background-clip: text;    /* For Firefox (older versions) */
      
-    color: transparent;            /* Hide the default text color */
+    color: #B12A5B ;            /* Hide the default text color */
 }
 }
 /* aabout section ends here */
@@ -23901,6 +23924,7 @@ blockquote .user-name:before {
     border-radius: 20px;
     padding: 0px;
     text-align: center;
+    margin: 0px 5px;
 }
 
 .segments-section .card img {
