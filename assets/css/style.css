@@ -196,10 +196,10 @@ body {
 }
 @media only screen and (max-width: 600px) {
   #banner-bg-img{
-    height: 400px !important;
+    height: 570px !important;
   }
   .banner-img-wrapper{
-    height: 400px !important;
+    height: 550px !important;
   }
   .background-img{
     display: none !important;
@@ -220,7 +220,8 @@ body {
 
   }
   .call-us-text{
-    top: 9% !important;
+    top: 25% !important;
+
   }
 }
  /* Zoom in Keyframes */
@@ -348,6 +349,7 @@ h6,
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+
 }
 
 abbr[title] {
@@ -10064,9 +10066,13 @@ fieldset:disabled .btn {
 .me-auto {
   margin-right: auto !important;
 }
+.title .mb-5{
+  font-family: Rajdhani sans-serif;
+}
 
 .mb-0 {
   margin-bottom: 0 !important;
+  font-family: Rajdhani sans-serif;
 }
 
 .mb-1 {
@@ -17477,6 +17483,7 @@ img {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-family: Rajdhani sans-serif;
 }
 
 /* ---Social Link--- */
@@ -20401,7 +20408,7 @@ blockquote .user-name:before {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  width: 130px;
+  width: 180px;
   display: block;
   border: 1px solid #8484846b;
   -webkit-transition: all 0.3s ease 0s;
@@ -20529,6 +20536,7 @@ blockquote .user-name:before {
   padding-right: 20px;
   width: 100%;
   height: 50px;
+  font-family: Rajdhani sans-serif;
 }
 .feedback-form .textarea-field {
   padding: 20px;
@@ -23218,6 +23226,7 @@ blockquote .user-name:before {
   color: #848484;
   font-size: 16px;
   line-height: 25px;
+  font-family: Rajdhani sans-serif;
 }
 .about-card {
   margin: 5px;
@@ -23246,6 +23255,7 @@ blockquote .user-name:before {
   align-self: center;
   padding-left: 10px;
   text-align: center;
+  font-family: Rajdhani sans-serif;
 }
 .about-card .content h4 {
   text-transform: uppercase;
@@ -23537,7 +23547,7 @@ blockquote .user-name:before {
 }
 .button-class{
   margin-top: 20px;
-  padding: 15px 25px;
+  padding: 10px 15px;
   border: 2px solid #fcfcfc;
   background: linear-gradient(
     to right,      /* Direction of the gradient */
@@ -23562,7 +23572,7 @@ blockquote .user-name:before {
   color: white;
   border-radius: 40px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   
 }
 .aabout-us-section button{
@@ -23608,10 +23618,13 @@ blockquote .user-name:before {
 }
 .blog-content{
   width: 80%;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .blog-content .title{
-  font-size: 24px;
+  font-size: 22px;
+}
+.button-class1{
+  padding: 10px 14px;
 }
 .mytext1{
           font-size: 18px;
@@ -23649,6 +23662,9 @@ blockquote .user-name:before {
   color: white;
   font-size: 31px;
 }
+h4 .mb-5{
+  font-family: Rajdhani sans-serif;
+}
 
   .aabout-us-section p {
     width: 78%;
@@ -23658,7 +23674,7 @@ blockquote .user-name:before {
 
   .aabout-us-section .aabout-button {
       font-size: 14px;
-      padding: 8px 16px;
+      padding: 10px 16px;
       margin-bottom: 30px;
   }
 }
@@ -23666,6 +23682,9 @@ blockquote .user-name:before {
 @media (max-width: 480px) {
     .aabout-us-section h1 {
       font-size: 14px;
+  }
+  h4 .mb-4{
+    font-family: Rajdhani sans-serif;
   }
   .about-card{
     margin: 10px;
@@ -23708,8 +23727,8 @@ blockquote .user-name:before {
   }
 
   .aabout-us-section .aabout-button {
-      font-size: 12px;
-      padding: 6px 12px;
+      font-size: 14px;
+      padding: 10px 15px;
       margin-bottom: 30px;
   }
   .gradient-text10 {
@@ -23733,7 +23752,7 @@ blockquote .user-name:before {
   position: relative;
 }
 .call-us-text{
-  writing-mode: vertical-rl;
+  writing-mode: vertical-rl !important;
   transform: rotate(180deg);
   color: #EE9CA7; /* Adjust color if needed */
   font-size: 16px; /* Adjust font size as needed */
